@@ -21,8 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://github.com/doltitol/qr-code-component)
+- Live Site URL: [Click here](http://www.coding-solutions.doltitol.com/qr-code/)
 
 ## My process
 
@@ -35,6 +35,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@doltitol](https://www.frontendmentor.io/profile/doltitol)
+- Twitter - [@doltitol](https://www.twitter.com/doltitol)

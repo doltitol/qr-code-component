@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,YAAY",
+    "sources": [
+        "mixins.scss",
+        "variables.scss"
+    ],
+    "names": [],
+    "file": "mixins.css"
+}

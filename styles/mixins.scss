@@ -1,0 +1,19 @@
+@import "./variables.scss";
+
+@mixin qr-code-text-styles(
+  $font-size: null,
+  $color: $grayish-blue-color,
+  $font-weight: null,
+  $line-height: null
+) {
+  @if ($color != $grayish-blue-color) {
+    $color: $dark-blue-color;
+  }
+
+  font-size: $font-size;
+  color: $color;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  text-align: center;
+  line-height: $line-height;
+}

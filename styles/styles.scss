@@ -1,0 +1,51 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+
+body {
+  @include qr-code-text-styles(0.938em, 400, 1.25em);
+  background-color: $light-gray-color;
+}
+
+.attribution {
+  a {
+    @include qr-code-text-styles(0.938em, $dark-blue-color, 700, 1.25em);
+    text-decoration: none;
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8.75em 4.375em 4.375em 4.375em;
+  .card {
+    background-color: $white-color;
+    border-radius: 1.25em;
+    width: 280px;
+    height: 450px;
+    padding: 1.25em;
+    box-shadow: 0 0.313em 1.563em rgba(0, 0, 0, 0.1);
+    .qr-code {
+      img {
+        width: 100%;
+        border-radius: 0.625em;
+      }
+    }
+    .card-body {
+      padding: 0.938em 0.438em 1.875em 0.438em;
+      h1 {
+        @include qr-code-text-styles(1.375em, $dark-blue-color, 700, 1.25em);
+      }
+      p {
+        @include qr-code-text-styles(1em, $grayish-blue-color, 400, 1.25em);
+        padding: 0 0.625em;
+        opacity: 0.9;
+      }
+    }
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .container {
+    margin: 5.75em 1.25em 1.25em 1.25em;
+  }
+}

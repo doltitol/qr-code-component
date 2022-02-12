@@ -1,0 +1,79 @@
+/* colors */
+/* colors */
+body {
+  font-size: 0.938em;
+  color: #1f3251;
+  font-family: "Outfit", sans-serif;
+  font-weight: 1.25em;
+  text-align: center;
+  background-color: #d6e2f0;
+}
+
+.attribution a {
+  font-size: 0.938em;
+  color: #1f3251;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.25em;
+  text-decoration: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 8.75em 4.375em 4.375em 4.375em;
+}
+
+.container .card {
+  background-color: white;
+  border-radius: 1.25em;
+  width: 280px;
+  height: 450px;
+  padding: 1.25em;
+  -webkit-box-shadow: 0 0.313em 1.563em rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.313em 1.563em rgba(0, 0, 0, 0.1);
+}
+
+.container .card .qr-code img {
+  width: 100%;
+  border-radius: 0.625em;
+}
+
+.container .card .card-body {
+  padding: 0.938em 0.438em 1.875em 0.438em;
+}
+
+.container .card .card-body h1 {
+  font-size: 1.375em;
+  color: #1f3251;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.25em;
+}
+
+.container .card .card-body p {
+  font-size: 1em;
+  color: #7b879d;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.25em;
+  padding: 0 0.625em;
+  opacity: 0.9;
+}
+
+@media (max-width: 568px) {
+  .container {
+    margin: 5.75em 1.25em 1.25em 1.25em;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
